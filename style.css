@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'beatmyguest';
+    src: url('fonts/beatmygu.ttf');
+    src: local('beatmyguest'), url('fonts/beatmygu.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'exquisitecorpse';
+    src: url('fonts/Exquisite\ Corpse.ttf');
+    src: local('exquisitecorpse'), url('fonts/Exquisite\ Corpse.ttf') format('truetype');
+}
+
+.homepic {
+    width: 99px;
+    height: 99px;
+    border: 2px ridge black;
+}
+
+h1 {
+    font-family: exquisitecorpse;
+    text-align: center;
+    color: green;
+    font-size: 60px;
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 1px ridge black;
+    margin-right: 15%;
+    margin-left: 15%;
+    background: linear-gradient(to right, yellow, green, yellow);
+    border-top: 5px ridge green;
+    border-right: 5px ridge green;
+    border-left: 5px ridge green;
+}
+
+.bmgp {
+    font-family: beatmyguest;
+    font-size: xx-large;
+    text-align: center;
+}
+
+body {
+    background-color: whitesmoke;
+
+}
+
+.nava {
+    padding: 10px;
+    border: 1px black ridge;
+
+}
+
+table {
+
+    background-color: rgb(0, 128, 0);
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+    border-spacing: 5px;
+    border: 7px ridge green;
+    border-top: none;
+    border-radius: 20px;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.5);
+}
+
+main {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: ridge 5px green;
+
+}
+
+.index-team {
+    width: 500px;
+    height: 400px;
+    border: 10px ridge green;
+    border-radius: 50px;
+}
+
+td {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px ridge black;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgb(0, 0, 0, 0.5), rgb(255, 255, 255, 0.5), rgb(0, 0, 0, 0.5));
+    text-shadow: 3px 3px 3px rgb(0, 0, 0, 0.7);
+    color: whitesmoke;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+caption {
+    background-color: whitesmoke;
+    border: ridge 5px green;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.5);
+}
