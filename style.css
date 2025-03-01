@@ -10,30 +10,26 @@
     src: local('exquisitecorpse'), url('fonts/Exquisite\ Corpse.ttf') format('truetype');
 }
 
-.homepic {
-    width: 99px;
-    height: 99px;
-    border: 2px ridge black;
-}
-
 h1 {
     font-family: exquisitecorpse;
     text-align: center;
     color: green;
-    font-size: 60px;
+    text-shadow: 0.05em 0.05em 0.05em rgb(206, 206, 69);
+    font-size: 3.5em;
 }
 
 #navigation {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 0.25%;
     border: 1px ridge black;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 3%;
+    margin-left: 3%;
     background: linear-gradient(to right, yellow, green, yellow);
-    border-top: 5px ridge green;
-    border-right: 5px ridge green;
-    border-left: 5px ridge green;
+    border-top: 0.25em ridge green;
+    border-right: 0.25em ridge green;
+    border-left: 0.25em ridge green;
+    padding: 0.25%;
 }
 
 .bmgp {
@@ -44,60 +40,73 @@ h1 {
 
 body {
     background-color: whitesmoke;
+    background-image: url(images/index-background.png);
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 
 .nava {
-    padding: 10px;
-    border: 1px black ridge;
+    padding: 0.25%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 table {
-
     background-color: rgb(0, 128, 0);
-    font-size: large;
     text-align: center;
-    padding: 5px;
-    border-spacing: 5px;
-    border: 7px ridge green;
+    padding: 0.25%;
+    border-spacing: 0.5em;
+    border: 5px ridge yellow;
     border-top: none;
-    border-radius: 20px;
     border-top-right-radius: 0%;
     border-top-left-radius: 0%;
-    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.5);
+    box-shadow: 1em 1em 1em rgb(255, 255, 255, 0.5);
+    width: 50%;
+    height: 50%;
 }
 
 main {
-    margin-left: 15%;
-    margin-right: 15%;
-    background-color: rgb(0, 0, 0, 0.5);
-    border: ridge 5px green;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: rgb(0, 0, 0, 0.9);
+    border: ridge 0.25em green;
+    padding: 1em;
+
 
 }
 
 .index-team {
-    width: 500px;
-    height: 400px;
-    border: 10px ridge green;
-    border-radius: 50px;
+    width: 24%;
+    height: 24%;
+    border: 0.2em ridge green;
+    border-radius: 2em;
 }
 
 td {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 1px ridge black;
-    border-radius: 5px;
+    border: 1px ridge rgb(0, 0, 0);
+    border-radius: 0.25em;
     background: linear-gradient(to right, rgb(0, 0, 0, 0.5), rgb(255, 255, 255, 0.5), rgb(0, 0, 0, 0.5));
-    text-shadow: 3px 3px 3px rgb(0, 0, 0, 0.7);
+    text-shadow: 0.25em 0.25em 0.25em rgb(0, 0, 0, 0.7);
     color: whitesmoke;
-    box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.5);
-    padding: 5px;
+    box-shadow: 0.25em 0.25em 0.25em rgb(0, 0, 0, 0.5);
+    padding: 0.4em;
 }
 
 caption {
-    background-color: whitesmoke;
-    border: ridge 5px green;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255, 0.7);
+    border: ridge 5px yellow;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    box-shadow: 1em 1em 1em rgb(255, 255, 255, 0.5);
+    font-weight: bold;
+    font-size: large;
+}
+
+div {
+    display: flex;
+    justify-content: center;
 }
