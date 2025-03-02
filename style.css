@@ -10,6 +10,18 @@
     src: local('exquisitecorpse'), url('fonts/Exquisite\ Corpse.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'medievalsharp';
+    src: url('fonts/Medieval\ Sharp/medievalsharp.ttf');
+    src: local('medievalsharp'), url('fonts/Medieval\ Sharp/medievalsharp.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'octobercrows';
+    src: url('fonts/October\ Crow.ttf');
+    src: local('octobercrows'), url('fonts/October\ Crow.ttf') format('truetype');
+}
+
 h1 {
     font-family: exquisitecorpse;
     text-align: center;
@@ -49,13 +61,16 @@ body {
 .nava {
     padding: 0.25%;
     color: whitesmoke;
+    text-shadow: rgb(0, 0, 0, 0.9) 0.2em 0.2em 0.2em;
     text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'medievalsharp';
+    font-weight: bold;
+    font-size: large;
 
 }
 
 table {
-    background-color: rgb(0, 128, 0);
+    background-color: rgb(0, 128, 0, 0.6);
     text-align: center;
     padding: 0.25%;
     border-spacing: 0.5em;
@@ -79,10 +94,15 @@ main {
 }
 
 .index-team {
-    width: 24%;
-    height: 24%;
-    border: 0.2em ridge green;
+    width: 48%;
+    height: 48%;
+    border: 5px ridge yellow;
     border-radius: 2em;
+    padding: 1%;
+    background-color: rgb(0, 128, 0, 0.6);
+    border-style: double;
+    box-shadow: 1em 1em 1em rgb(255, 255, 255, 0.5);
+
 }
 
 td {
@@ -96,14 +116,28 @@ td {
     padding: 0.4em;
 }
 
+th {
+    background: linear-gradient(to right, rgb(255, 255, 0, 0.8), rgb(255, 255, 255, 0.8), rgb(255, 255, 0, 0.8));
+    font-family: medievalsharp;
+    box-shadow: 0.25em 0.25em 0.25em rgb(0, 0, 0, 0.5);
+    font-size: x-large;
+    border-radius: 0.2em;
+    text-shadow: 0.05em 0.05em 0.05em rgb(0, 128, 0, 0.5);
+    font-weight: bold;
+}
+
 caption {
-    background-color: rgb(255, 255, 255, 0.7);
+    background: linear-gradient(to right, white, green, white);
     border: ridge 5px yellow;
     border-top-right-radius: 0.5em;
     border-top-left-radius: 0.5em;
     box-shadow: 1em 1em 1em rgb(255, 255, 255, 0.5);
-    font-weight: bold;
-    font-size: large;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: octobercrows;
+    padding: 0.25em;
+    text-shadow: rgb(255, 255, 255, 0.5) 0.2em 0.2em 0.2em;
+
 }
 
 div {
