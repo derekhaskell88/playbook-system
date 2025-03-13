@@ -123,7 +123,6 @@ td {
 th {
     background: linear-gradient(to right, rgb(255, 255, 0, 0.8), rgb(255, 255, 255, 0.8), rgb(255, 255, 0, 0.8));
     font-family: medievalsharp;
-    box-shadow: 0.25em 0.25em 0.25em rgb(0, 0, 0, 0.5);
     font-size: x-large;
     border-radius: 0.2em;
     text-shadow: 0.05em 0.05em 0.05em rgb(0, 128, 0, 0.5);
@@ -149,7 +148,46 @@ div {
     justify-content: center;
 }
 
-legend,
+legend {
+    font-size: x-large;
+    border: ridge 2px yellow;
+    box-shadow: 0.25em 0.25em 0.25em rgb(0, 0, 0, 0.5);
+    font-family: octobercrows;
+    text-shadow: rgb(255, 255, 255, 0.5) 0.1em 0.1em 0.1em;
+    padding: 0.3em;
+    background: linear-gradient(to right, rgb(0, 128, 0, 0.8), rgb(255, 255, 0, 0.8), rgb(0, 128, 0, 0.8));
+    font-weight: bolder;
+}
+
 label {
-    color: whitesmoke;
+    font-family: medievalsharp;
+    font-weight: bold;
+    font-size: larger;
+    text-shadow: rgb(0, 128, 0) 0.07em 0.07em 0.07em;
+}
+
+fieldset {
+    border: ridge 2px yellow;
+    box-shadow: 0.7em 0.7em 0.7em rgb(255, 255, 255, 0.5);
+    background: linear-gradient(to right, rgb(255, 255, 0, 0.8), rgb(0, 128, 0, 0.8), rgb(255, 255, 0, 0.8));
+}
+
+input {
+    width: 50%;
+}
+
+button {
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 1em;
+}
+
+button:hover {
+    background: linear-gradient(to right, rgb(255, 255, 0, 0.8), rgb(0, 128, 0, 0.8), rgb(255, 255, 0, 0.8));
+    box-shadow: 0.2em 0.2em 0.2em rgb(255, 255, 255, 0.5);
+    border: ridge 2px yellow;
+}
+
+form {
+    width: 45%;
 }

@@ -9,38 +9,88 @@
 </head>
 
 <body>
+    <div id="navigation">
+        <a title="Navigate to Playbooks" class="nava" target="_blank" href="playbook.html">Playbooks</a>
+        <a title="Register to volunteer" class="nava" target="_blank" href="">Volunteer Registration</a>
+        <a title="Register for CCDC." class="nava" target="_blank" href="https://forms.office.com/r/wxWh7TVUUR">Team
+            Registration</a>
+        <a title="Login for Players only" class="nava" target="_blank" href="login.html">Login</a>
+    </div>
+    <main>
+        <h1>CCDC Volunteer Registration</h1>
+        <div>
+            <form action="#">
+                <fieldset><br>
+                    <legend>Contact</legend>
+                    <label for="full_name">Full Name:</label>
+                    <input type="text" id="full_name" name="full_name" required><br><br>
 
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+                </fieldset>
+                <br>
+                <fieldset><br>
+                    <legend>Munchies</legend>
+                    <label for="saltysnack">Favorite Salty Snack:</label>
+                    <input type="text" id="saltysnack" name="saltysnack" required><br><br>
+
+                    <label for="sweettreat">Favorite Sweet Treat:</label>
+                    <input type="text" id="sweettreat" name="sweettreat" required><br><br>
+
+                    <label for="drink">Favorite Beverage:</label>
+                    <input type="text" id="drink" name="drink" required><br><br>
+
+                    <label for="pizza">Favorite Pizza:</label>
+                    <input type="text" id="pizza" name="pizza" required><br><br>
+                </fieldset>
+                <br>
+                <fieldset><br>
+                    <legend>Background</legend>
+                    <label for="ccdc-experience">Blue Team CCDC Experience:</label>
+                    <select name="ccdc-experience" id="ccdc-experience">
+                        <option value="0">None</option>
+                        <option value="1">1 Year</option>
+                        <option value="2">2 Years</option>
+                        <option value="3">3 Years</option>
+                        <option value="4">4 Years</option>
+                        <option value="5">5 Years</option>
+                    </select>
+                    <br><br>
+                    <label for="volunteer-experience">CCDC Observer Experience:</label>
+                    <select name="volunteer-experience" id="volunteer-experience">
+                        <option value="0">None</option>
+                        <option value="1">1 Year</option>
+                        <option value="2">2 Years</option>
+                        <option value="3">3 Years</option>
+                        <option value="4">4 Years</option>
+                        <option value="5">5 Years</option>
+                        <option value="6">Legend</option>
+                    </select>
+                    <br><br>
+                </fieldset>
+                <br>
+                <fieldset><br>
+                    <legend>Qualification</legend>
+                    <label for="affiliation">Select Your Affiliation With UVU</label>
+                    <select name="affiliation" id="affiliation">
+                        <option value="">No Affiliation</option>
+                        <option value="">Former Student of UVU</option>
+                        <option value="">Current Student of UVU</option>
+                        <option value="">Former Employee of UVU</option>
+                        <option value="">Current Employee of UVU</option>
+                        <option value="">Related to UVU Cyber Team Member</option>
+                    </select><br><br>
+                </fieldset>
+                <br><br>
+                <div>
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+    </main>
 </body>
-<h1>CCDC Volunteer Registration</h1>
-<div id="navigation">
-    <a title="Navigate to Playbooks" class="nava" target="_blank" href="playbook.html">Playbooks</a>
-    <a title="Register to volunteer" class="nava" target="_blank" href="">Volunteer Registration</a>
-    <a title="Register for CCDC." class="nava" target="_blank" href="https://forms.office.com/r/wxWh7TVUUR">Team
-        Registration</a>
-    <a title="Login for Players only" class="nava" target="_blank" href="login.html">Login</a>
-</div>
-<main>
-    <fieldset>
-        <legend>Volunteer Registration Form</legend>
-        <form action="" method="">
-            <label for="full_name">Full Name:</label>
-            <input type="text" id="full_name" name="full_name" required><br><br>
-
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required><br><br>
-
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" required><br><br>
-
-            <label for="snack">Favorite snack:</label>
-            <input type="text" id="treat" name="treat" required><br><br>
-
-            <label for="beverage">Favorite Beverage:</label>
-            <input type="text" id="drink" name="drink" required><br><br>
-
-            <button type="submit">Register</button>
-        </form>
-    </fieldset>
-</main>
 
 </html>
