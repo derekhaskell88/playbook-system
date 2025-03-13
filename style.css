@@ -67,15 +67,14 @@ body {
     font-size: large;
 }
 
-#home {
-    justify-self: left;
-}
+
 
 .nava:hover {
     background: linear-gradient(to right, rgb(0, 0, 0, 0.3), rgb(255, 255, 255, 0.5), rgb(0, 0, 0, 0.3));
     text-shadow: rgb(0, 0, 0, 0.3) 0.1em 0.1em 0.1em;
     box-shadow: 0.2em 0.2em 0.2em black;
     border-radius: 5%;
+    color: black;
 }
 
 table {
@@ -87,7 +86,7 @@ table {
     border-top: none;
     border-top-right-radius: 0%;
     border-top-left-radius: 0%;
-    box-shadow: 1em 1em 1em rgb(255, 255, 255, 0.5);
+    box-shadow: 0.7em 0.7em 0.7em rgb(255, 255, 255, 0.5);
     width: 50%;
     height: 50%;
 }
@@ -138,7 +137,7 @@ caption {
     border: ridge 5px yellow;
     border-top-right-radius: 0.5em;
     border-top-left-radius: 0.5em;
-    box-shadow: 1em 1em 1em rgb(255, 255, 255, 0.5);
+    box-shadow: 0.6em 0.6em 0.6em rgb(255, 255, 255, 0.5);
     font-weight: bolder;
     font-size: x-large;
     font-family: octobercrows;
@@ -181,15 +180,21 @@ input {
 }
 
 button {
-    font-weight: bolder;
-    font-size: x-large;
-    padding: 1em;
+    font-weight: bold;
+    font-size: large;
+    padding: 0.3em;
+    background: linear-gradient(to right, rgb(255, 255, 0, 0.5), rgb(0, 128, 0, 0.5), rgb(255, 255, 0, 0.5));
+    border: ridge 1px yellow;
+    color: whitesmoke;
+    font-family: medievalsharp;
+
 }
 
 button:hover {
     background: linear-gradient(to right, rgb(255, 255, 0, 0.8), rgb(0, 128, 0, 0.8), rgb(255, 255, 0, 0.8));
     box-shadow: 0.2em 0.2em 0.2em rgb(255, 255, 255, 0.5);
-    border: ridge 2px yellow;
+    color: black;
+    border: ridge 2px green;
 }
 
 form {
