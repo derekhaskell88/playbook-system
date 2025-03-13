@@ -67,6 +67,10 @@ body {
     font-size: large;
 }
 
+#home {
+    justify-self: left;
+}
+
 .nava:hover {
     background: linear-gradient(to right, rgb(0, 0, 0, 0.3), rgb(255, 255, 255, 0.5), rgb(0, 0, 0, 0.3));
     text-shadow: rgb(0, 0, 0, 0.3) 0.1em 0.1em 0.1em;
